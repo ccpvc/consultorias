@@ -13,3 +13,46 @@ a{
     text-decoration: none;
     color: #333;
 }
+
+/* BARRA DE NAVEGACIÓN */
+.nav-container{
+    height: 40px;
+    max-width: 968px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.logo-nombre{
+    width: 100%;
+    align-self: center;
+    justify-items: start;
+}
+
+.logo-nombre div{
+    margin-left: 10px;
+}
+
+.logo-nombre div h1{
+    font-size: 2rem;
+    color: #a0715f;
+}
+
+.icono-menu{
+    display: grid;
+    width: 100%;
+    justify-content: end;
+    align-self: center;
+    margin-right: 30px;
+    font-size: 3rem;
+    
+}
+
+.icono-menu div{
+    margin-right: 10px;
+}
+
+/* HERO */
+.hero{
+    background-color: #dfd7ce;
+    height: 120px;
+}
