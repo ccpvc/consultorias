@@ -1,3 +1,4 @@
+/* CONFIGURACIÓN GENERAL */
 *{
     box-sizing: border-box;
     margin: 0 auto;
@@ -54,5 +55,41 @@ a{
 /* HERO */
 .hero{
     background-color: #dfd7ce;
-    height: 120px;
+    height: 660px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.text-container{
+    margin-top: 90px;
+}
+
+.hero p{
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero h2{
+    color: #a0715f;
+    font-size: 5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.hero img{
+    height: 328px;
+}
+
+.hero button {
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 363px;
+    height: 54px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: none;
+    border: #333 2px solid;
 }
